@@ -6,3 +6,5 @@ Prototype of a portable water level measuring devicem using an NRF module for wi
 This setup allows the ToF sensor to be positioned pointing downwards into the container, providing accurate and reliable water level readings while maintaining portability and ease of integration with a battery-powered system.
 Moreover plug and play installation for non-technical person. 
 //
+
+Update
