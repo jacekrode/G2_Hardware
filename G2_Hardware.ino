@@ -4,6 +4,7 @@
 #include  // TODO: NRF24 comm library by specific model, hint: RF?
 #include  // TODO: For I2C communication
 #include  // TODO: For SPI communication
+#include "src/battery/battery.h"
 
 // Define pins and constants
 #define TOF_PIN 21  // Pin connected to the ToF sensor's I2C address
@@ -26,6 +27,7 @@ void measureWaterLevel();
 
 void setup() {
   Serial.begin(115200);
+  battery.init(); 
 
   // Initialize ToF sensor
   if (!setupToFSensor()) {
@@ -52,6 +54,9 @@ void setup() {
 }
 
 void loop() {
+  battery.checkBatteryStatus();
+    delay(1000); // Check battery status every second
+    
   // Measure water level using ToF sensor
   measureWaterLevel();
 
