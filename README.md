@@ -12,7 +12,7 @@ Moreover plug and play installation for non-technical person.
 - [ ] Write code for the sensor module by implementing functionality in `sensor.cpp`.
 - [ ] Develop a unified SPI communication module in `spi.cpp`.
 - [ ] Implement NRF communication protocol in `nrf.cpp`, utilizing the unified SPI module.
-- [ ] Implement battery management functions in `battery.cpp`.
+- [x] Implement battery management functions in `battery.cpp`.
 - [ ] Create I2C communication routines in `i2c.cpp` for ToF sensor hardware.
 - [ ] Write WiFi connectivity code in `wifi.cpp`.
 - [ ] Implement utility functions in `utils.cpp`, (e.g. different levels of debugging)
