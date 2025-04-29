@@ -10,9 +10,15 @@ Moreover plug and play installation for non-technical person.
 
 - [ ] Refactor `G2_Hardware.ino` for modularity.
 - [ ] Write code for the sensor module by implementing functionality in `sensor.cpp`.
+- [ ] Vattennivåsensorn ska mäta max 2 m ner med 1 cm felmarginal
+- [ ] Vattennivåsensorn ska testas i fuktiga miljöer
+- [ ] Vattennivåsensorn och batterisensor ska skicka data var 15:de minut med konfigurbar uppdatering
+- [ ] Vattennivåsensorn ska skicka signal innan översvämmning sker
+- [ ] Visuell- och ljudvarning vid översvämmning via HTTP-anrop, API direkt för att aktivera larm, oberoende av Raspberry Pi eller nätverksstatus
 - [ ] Develop a unified SPI communication module in `spi.cpp`.
 - [ ] Implement NRF communication protocol in `nrf.cpp`, utilizing the unified SPI module.
 - [x] Implement battery management functions in `battery.cpp`.
 - [ ] Create I2C communication routines in `i2c.cpp` for ToF sensor hardware.
 - [ ] Write WiFi connectivity code in `wifi.cpp`.
 - [ ] Implement utility functions in `utils.cpp`, (e.g. different levels of debugging)
+- [ ] Varning för låg batterinivå 
