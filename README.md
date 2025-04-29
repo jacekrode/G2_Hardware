@@ -10,11 +10,11 @@ Moreover plug and play installation for non-technical person.
 
 - [ ] Refactor `G2_Hardware.ino` for modularity.
 - [ ] Write code for the sensor module by implementing functionality in `sensor.cpp`.
-- [ ] Vattennivåsensorn ska mäta max 2 m ner med 1 cm felmarginal
-- [ ] Vattennivåsensorn ska testas i fuktiga miljöer
-- [ ] Vattennivåsensorn och batterisensor ska skicka data var 15:de minut med konfigurbar uppdatering
-- [ ] Vattennivåsensorn ska skicka signal innan översvämmning sker
-- [ ] Visuell- och ljudvarning vid översvämmning via HTTP-anrop, API direkt för att aktivera larm, oberoende av Raspberry Pi eller nätverksstatus
+- [ ] Waterlevel sensor should measure a maximum of 2 m down with a 1 cm margin of error
+- [ ] Waterlevel sensor to be tested in humid environments
+- [ ] Waterlevel sensor och battery sensor will send data every 15 minutes with configurable update
+- [ ] Waterlevel should send a signal before flooding occurs
+- [ ] Visual and audio flood warning via HTTP calls, API directly to activate alarms, independent of Raspberry Pi or network status
 - [ ] Develop a unified SPI communication module in `spi.cpp`.
 - [ ] Implement NRF communication protocol in `nrf.cpp`, utilizing the unified SPI module.
 - [x] Implement battery management functions in `battery.cpp`.
