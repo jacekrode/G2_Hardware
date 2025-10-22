@@ -21,4 +21,12 @@ Moreover plug and play installation for non-technical person.
 - [ ] Create I2C communication routines in `i2c.cpp` for ToF sensor hardware.
 - [ ] Write WiFi connectivity code in `wifi.cpp`.
 - [ ] Implement utility functions in `utils.cpp`, (e.g. different levels of debugging)
-- [ ] Varning för låg batterinivå 
+- [ ] Varning för låg batterinivå
+
+# Schematics
+
+<img width="1190" height="845" alt="Schematic1_ToFsensor(sender)" src="https://github.com/user-attachments/assets/737d7a5e-6280-437d-b7b8-6c630f9e45a2" />
+
+<img width="1190" height="845" alt="Schematic2_receiver" src="https://github.com/user-attachments/assets/1b5dab43-9bb0-4dff-9a9e-c73593d47c4a" />
+
+
